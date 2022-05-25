@@ -10,9 +10,9 @@
             numArr[2] = 3;
             numArr[3] = 4;
             numArr[4] = 5;
-            foreach (var item in numArr)
+            for (int i = 0; i < numArr.Length; i++)
             {
-                Console.WriteLine(item);
+                Console.Write($"{i} ");
             }
         }
     }

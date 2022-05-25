@@ -1,6 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-using ArrayGFG;
+﻿using ArrayGFG;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Array");
 CreateArray createArray = new CreateArray();
 createArray.Execute();
